@@ -6,23 +6,24 @@ body{
     width: 650px;
     height: 300px;
     background-color:rgb(6 5 74 / 36%);
-    margin-top: 150px;
+    margin-top: 180px;
+    --bs-gutter-x: 0rem;
 }
 .img{
-    width: 400px;
-    height: 300px;
-    float :left;
+    width:325px;
+    height: 300px;  
+    float: left;
 }  
 .row.g-2{
     color: white;
+    width: 300px;
+    padding-left: 50px;
 
 }
+
 #btn{
     background-color:hsla(271, 80%, 71%, 0.925);
     border-radius: 4px;
     border-color:hsla(271, 80%, 71%, 0.925) ;
-    color: white;
-}
-.result{
     color: white;
 }

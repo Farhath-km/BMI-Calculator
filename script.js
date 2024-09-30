@@ -28,13 +28,13 @@
 
         // Dividing as per the bmi conditions
         if (bmi < 18.6) result.innerHTML =
-            `Under Weight : <span>${bmi}</span>`;
+            `<span style="color: yellow;">Under Weight : <span style="color: yellow;">${bmi}</span>`;
 
         else if (bmi >= 18.6 && bmi < 24.9)
             result.innerHTML =
-                `Normal : <span>${bmi}</span>`;
+                `<span style="color: green;">Normal : <span style="color: green;">${bmi}</span>`;
 
         else result.innerHTML =
-            `Over Weight : <span>${bmi}</span>`;
+            `<span style="color: red;">Over Weight : <span style="color: red;">${bmi}</span>`;
     }
 }
