@@ -1,11 +1,12 @@
 body{
-    background-color:hsla(271, 80%, 71%, 0.925);
+    
+    background: linear-gradient(to right, rgb(183, 77, 231), rgb(57, 4, 92));
     
 }
 .container{
     width: 650px;
     height: 300px;
-    background-color:rgb(6 5 74 / 36%);
+    background: linear-gradient(to right, rgba(219, 81, 86, 0.99), rgb(53, 32, 175));
     margin-top: 180px;
     --bs-gutter-x: 0rem;
 }
